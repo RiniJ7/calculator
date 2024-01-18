@@ -137,7 +137,7 @@ function App() {
         <div className="previous-operand">
           {formatOperand(previousOperand)} {operation}
         </div>
-        <div className="current-operand">{formatOperand(currentOperand)}</div>
+        <div className="current-operand">{formatOperand(currentOperand)Deployemnt }</div>
       </div>
       <button
         className="span-two"

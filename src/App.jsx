@@ -14,6 +14,14 @@ export const ACTIONS = {
 function reducer(state, { type, payload }) {
   switch (type) {
     case ACTIONS.ADD_DIGIT:
+      //Edge Case: case allows overwriting over the previous results
+      if (state.overwrite) {
+        return {
+          ...state,
+          currentOperand: payload.digit,
+          overwrite: false,
+        };
+      }
       //Edge Case: avoiding multiple zeroes and multiple decimal points
       if (payload.digit === "0" && state.currentOperand === "0") return state;
       if (payload.digit === "." && state.currentOperand.includes("."))
@@ -60,6 +68,7 @@ function reducer(state, { type, payload }) {
       return {
         ...state,
         previousOperand: null,
+        overwrite: true,
         operation: null,
         currentOperand: evaluate(state),
       };
@@ -84,7 +93,7 @@ function evaluate({ currentOperand, previousOperand, operation }) {
       computation = prev * current;
       break;
   }
-  return computation.toString()
+  return computation.toString();
 }
 
 function App() {

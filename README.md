@@ -2,7 +2,7 @@
 
 # Digital Calculator Application
 
-This is a simple digital calculator application built using React.
+This is a simple digital calculator application built using React, HTML5, CSS, and Javascript.
 
 ## Features
 
@@ -16,6 +16,9 @@ This is a simple digital calculator application built using React.
 
 - React
 - CSS
+- HTML5
+- Node.js
+- JavaScript
 
 ## Installation
 
@@ -24,7 +27,7 @@ To run this app locally, follow these steps:
 1. Clone this repository to your local machine:
 
 ```
-git clone <repository-url>
+git clone https://github.com/RiniJ7/calculator
 ```
 
 2. Navigate to the project directory:
@@ -57,18 +60,17 @@ npm start
 
 ## Screenshots
 
-![Screenshot 1](/path/to/screenshot1.png)
-![Screenshot 2](/path/to/screenshot2.png)
+![Screen Shot 2024-04-03 at 3 31 41 PM](https://github.com/RiniJ7/calculator/assets/125235432/01a85c7d-c6a6-4248-9742-111c78747889)
 
 ## Contributing
 
-Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests.
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
 
-## License
+## Licenses
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 
-- Inspired by [XYZ Calculator](https://example.com)
+- Inspired by [Beginner React Project](https://www.youtube.com/watch?v=DgRrrOt0Vr8)
 

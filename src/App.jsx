@@ -132,12 +132,19 @@ function App() {
   );
 
   return (
+<>
+
+    <div class="title-container">
+  <h1 class="title">Digital Calculator</h1>
+</div>
     <div className="calculator-grid">
-      <div className="output">
+       <div className="output">
         <div className="previous-operand">
           {formatOperand(previousOperand)} {operation}
         </div>
-        <div className="current-operand">{formatOperand(currentOperand)}</div>
+        <div className="current-operand">{formatOperand(currentOperand) }
+
+        </div>
       </div>
       <button
         className="span-two"
@@ -168,6 +175,7 @@ function App() {
         =
       </button>
     </div>
+    </>
   );
 }
 

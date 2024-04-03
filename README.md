@@ -4,6 +4,10 @@
 
 This is a simple digital calculator application built using React, HTML5, CSS, and Javascript.
 
+## Demo
+
+[Digital Calculator Demo](https://calculator-omega-eight-85.vercel.app/)
+
 ## Features
 
 - Basic arithmetic operations: addition, subtraction, multiplication, and division.
